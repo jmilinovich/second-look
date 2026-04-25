@@ -1,0 +1,10 @@
+{
+  "name": "second-look",
+  "version": "0.1.0",
+  "description": "Give your tests a second look. A principled approach to writing, auditing, and maintaining tests that optimizes for signal over coverage and treats every test as a bet that its future signal exceeds its future maintenance cost. Named for Andrew Look, whose advice shaped the philosophy.",
+  "author": {
+    "name": "John Milinovich"
+  },
+  "license": "MIT",
+  "keywords": ["testing", "quality", "audit", "pytest", "code-review", "test-quality"]
+}
