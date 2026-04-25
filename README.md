@@ -23,9 +23,12 @@ The CLAUDE.md snippet is included separately (`CLAUDE-snippet.md`) for users who
 ### From GitHub (recommended)
 
 ```bash
-# In Claude Code
-/plugin install github:jmilinovich/second-look
+# In Claude Code — two steps: register the marketplace, then install
+/plugin marketplace add jmilinovich/second-look
+/plugin install second-look@second-look
 ```
+
+The repo doubles as a single-plugin marketplace, so `/plugin install` needs the `<plugin>@<marketplace>` form rather than a bare GitHub path.
 
 Scope defaults to `user` (available across all your projects). Add `--scope project` to commit it to a specific project.
 

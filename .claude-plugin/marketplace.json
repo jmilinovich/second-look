@@ -1,0 +1,13 @@
+{
+  "name": "second-look",
+  "owner": {
+    "name": "jmilinovich"
+  },
+  "plugins": [
+    {
+      "name": "second-look",
+      "source": ".",
+      "description": "Give your tests a second look. Writing, auditing, and maintaining tests with a signal-over-coverage philosophy."
+    }
+  ]
+}
