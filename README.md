@@ -22,11 +22,9 @@ The CLAUDE.md snippet is included separately (`CLAUDE-snippet.md`) for users who
 
 ### From GitHub (recommended)
 
-Once this is pushed to GitHub:
-
 ```bash
 # In Claude Code
-/plugin install github:<your-username>/second-look
+/plugin install github:jmilinovich/second-look
 ```
 
 Scope defaults to `user` (available across all your projects). Add `--scope project` to commit it to a specific project.
